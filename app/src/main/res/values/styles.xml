@@ -1,6 +1,6 @@
 <resources>
 
-    <!-- Base application theme. -->
+    <!-- LOGIN application theme. -->
     <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -8,6 +8,17 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:editTextColor">@color/colorText</item>
         <item name="android:textColor">@color/colorText</item>
+    </style>
+
+
+    <!-- HOME application theme. -->
+    <style name="HomeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryTop</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:editTextColor">@color/colorTextInv</item>
+        <item name="android:textColor">@color/colorTextInv</item>
     </style>
 
 </resources>
